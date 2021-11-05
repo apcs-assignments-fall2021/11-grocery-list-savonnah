@@ -47,7 +47,7 @@ public class GroceryList {
     // You **may** have an extra comma at the end
     @Override
     public String toString() {
-        String str = ("Grocery List: ");
+        String str = ("Grocery List:");
         for (int i = 0; i<9; i++){
             if (arr[i] != null){
                 if (i == 0){
